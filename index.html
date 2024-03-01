@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link rel="icon" href="assets/img/dis_logo.png" />
+    <!-- BOX ICONS LIBRARY -->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Title -->
+    <title>SkillUp Gaming</title>
+
+  </head>
+  <body>
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrollTop show-scroll" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+
+    <!-- HEADER -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <b>
+            SkillUp
+            <span>Gaming</span>
+          </b>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#memory" class="nav_link">Memory Game</a>
+            </li>
+            <li class="nav_item">
+              <a href="#math" class="nav_link">Math Game</a>
+            </li>
+            <li class="nav_item">
+              <a href="#typing" class="nav_link">Typing Game</a>
+            </li>
+            <li class="hidden_item">
+              <a href="#app" class="nav_link">App</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contact Us</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <button
+            class="menu"
+            aria-label="Abrir Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+            <svg width="40" height="41" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="l-main">
+      <!-- HOME -->
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">SkillUp</h1>
+            <h1 class="home_title">Gaming</h1>
+
+            <h2 class="home_subtitle">On Your Desktop! 😍</h2>
+            <a href="#memory" class="button">Let's Skill Up</a>
+          </div>
+
+          <img
+            src="assets/img/ming_game_picture.png"
+            alt="Prato de comida saudável"
+            class="home_img"
+          />
+        </div>
+      </section>
+
+      <!-- MEMORY GAME -->
+      <section class="about section bd-container" id="memory">
+        <div class="about_container bd-grid">
+          <img
+            src="assets/img/memory_image.jpg"
+            alt="Ingredientes naturais"
+            class="about_img"
+          />
+          <div class="about_data">
+            <span class="section-subtitle about_initial">Memory Game</span>
+            <h2 class="section-title about_initial">
+              Boost Memory with Fun!!
+            </h2>
+            <p class="about_description">
+              Immerse yourself in the Memory Game and supercharge your memory skills!! 😎
+            </p>
+            <a href='./components/memory_game/index.html' target="_blank" class="button">Let's Play &nbsp; <i class="fas fa-play"></i> </a>
+          </div>
+
+          
+        </div>
+      </section>
+
+      <!-- MATH GAME -->
+      <section class="about section bd-container" id="math">
+        <div class="about_container bd-grid">
+          <img
+            src="assets/img/math.jpg"
+            alt="Ingredientes naturais"
+            class="about_img"
+          />
+          <div class="about_data">
+            <span class="section-subtitle about_initial">Math Game</span>
+            <h2 class="section-title about_initial">
+              Sharpen Your Mind with Math Fun!
+            </h2>
+            <p class="about_description">
+              Dive into the Math Game and supercharge your math skills!! 😎
+            </p>
+            <a href='./components/math_game/index.html' target="_blank" class="button">Let's Play &nbsp; <i class="fas fa-play"></i> </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- TYPING GAME -->
+      <section class="about section bd-container" id="typing">
+        <div class="about_container bd-grid">
+          <img
+            src="assets/img/typing.jpg"
+            alt="Ingredientes naturais"
+            class="about_img"
+          />
+          <div class="about_data">
+            <span class="section-subtitle about_initial">Typing Game</span>
+            <h2 class="section-title about_initial">
+              Boost Your Typing Speed!
+            </h2>
+            <p class="about_description">
+              Engage in a typing challenge that not only relaxes your mind but also enhances your typing skills and speed!! 😎
+            </p>
+            <a href='./components//typing_game/index.html' target="_blank" class="button">Let's Play &nbsp; <i class="fas fa-play"></i> </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Unlock Your Potential with Our Mind-Boosting Games</span>
+        <h2 class="section-title">Feature of this Game</h2>
+
+        <div class="services_container bd-grid">
+          <div class="services_content">
+            <h3 class="services_title">Memory Game</h3>
+            <p class="services_description">
+              Embark on a relaxing journey with our memory game, where you can unwind, destress, and enhance your image recall skills!
+            </p>
+          </div>
+
+          <div class="services_content">
+            <h3 class="services_title">Math Game</h3>
+            <p class="services_description">
+              Step into a stress-relieving math challenge that not only relaxes your mind but also boosts your mental math prowess!
+            </p>
+          </div>
+
+          <div class="services_content">
+            <h3 class="services_title">Typing Game</h3>
+            <p class="services_description">
+              Engage in a typing challenge that not only relaxes your mind but also enhances your typing skills and speed!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- APP -->
+      <section class="app section bd-container" id="app">
+        <div class="app_container bd-grid">
+          <div class="app_data">
+            <span class="section-subtitle app_initial">Start now!</span>
+            <h2 class="section-title app_initial">Run our application</h2>
+            <p class="app_description">
+              Just click below to run the website on your PC and relax with these games, relieving your stress!
+            </p>
+            <div class="app_stores">
+              <a href="#"
+                ><img
+                  src="assets/img/netlify.png"
+                  alt=""
+                  class="app_store_large"
+              /></a>
+            </div>
+          </div>
+
+          <img src="assets/img/mobile_site.png" alt="" class="app_img" />
+        </div>
+      </section>
+
+      <!-- CONTACT US -->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact_container bd-grid">
+          <div class="contact_data">
+            <span class="section-subtitle contact_initial"
+              >Let's talk?</span
+            >
+            <h2 class="section-title contact_initial">Contact us</h2>
+            <p class="contact_description">
+              Need some help using the website To see your requests or 
+              more details and options about our services, contact us
+              now! We are online 24 hours a day, from Monday to Sunday! 😉
+            </p>
+          </div>
+
+          <div class="contact_button">
+            <a href="tel:+919289505847" class="button">Get in touch</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer section bd-container">
+      <div class="footer_container bd-grid">
+        <div class="footer_content">
+          <b class="footer_logo">
+            SkillUp
+            <span>Gaming</span>
+          </b>
+
+          <span class="footer_description">The best service, for you. </span>
+
+          <div>
+            <a href="https://github.com/2212vishal" class="footer_social"
+              ><i class="bx bxl-github"></i>
+              </i
+            ></a>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/vishal002212/" class="footer_social"><i class="bx bxl-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Information</h3>
+          <ul>
+            <li><a href="#" class="footer_link">Events</a></li>
+            <li><a href="#" class="footer_link">Privacy Policy</a></li>
+            <li><a href="#" class="footer_link">Service Terms</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Address</h3>
+          <ul>
+            <li>Uttam Nagar</li>
+            <li>New Delhi, 110059</li>
+            <li>India(IN)</li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Navigation</h3>
+          <ul>
+            <li><a href="#app" class="footer_link">Download</a></li>
+            <li><a href="#contact" class="footer_link">Contact Us</a></li>
+            <li><a href="#momory" class="footer_link">Weekly Specials</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer_copy">
+        &#169; 
+        <a
+          href="https://github.com/2212vishal"
+          class="footer_link"
+          target="_blank"
+        >
+          Developed By Vishal
+        </a>
+      </p>
+    </footer>
+
+    <!-- SCROLL REVEAL LIBRARY -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

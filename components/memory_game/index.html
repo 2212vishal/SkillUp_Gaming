@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define character set -->
+    <meta charset="UTF-8">
+    <!-- Define compatibility with IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Define viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the page -->
+    <title>Memory Game with JavaScript</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to external JavaScript file with defer attribute for deferred execution -->
+    <script src="script.js" defer></script>
+</head>
+<body id="main">
+    <!-- Main heading of the game -->
+    <div class="heading">Memory Game</div>
+    <!-- Game container -->
+    <div class="game">
+        <!-- Game controls section -->
+        <div class="controls">
+            <!-- Button to start the game -->
+            <button class="btn">Start</button>
+            <!-- Game statistics section -->
+            <div class="stats">
+                <!-- Display the number of moves made -->
+                <div class="moves">0 Moves</div>
+                <!-- Display the elapsed time -->
+                <div class="timer">Time: 0 Sec.</div>
+            </div>
+        </div>
+        <!-- Board container for the game board -->
+        <div class="board-container">
+            <!-- Game board with a data-dimension attribute for setting the grid size -->
+            <div class="board" data-dimension="4"></div>
+            <!-- Message displayed when the player wins the game -->
+            <div class="win">You won!</div>
+        </div>
+    </div>
+</body>
+</html>
